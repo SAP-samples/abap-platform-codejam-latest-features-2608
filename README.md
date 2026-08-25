@@ -1,21 +1,22 @@
 # SAP CodeJam: ABAP Cloud & ABAP RESTful Application Programming Model (RAP) - SPECIAL EDITION
 
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-codejam-latest-features-2602)](https://api.reuse.software/info/github.com/SAP-samples/abap-platform-codejam-latest-features-2602)   
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/abap-platform-codejam-latest-features-2608)](https://api.reuse.software/info/github.com/SAP-samples/abap-platform-codejam-latest-features-2608)   
 
 Welcome to a hands-on workshop that deepens your practical skills of ABAP Cloud and the ABAP RESTful Application Programming Model (RAP). 
-In this special edition you’ll get exclusive, applied exposure to features delivered in cloud releases 2502–2602 through short demos, guided feature implementation, and expert support.
+In this special edition you'll get exclusive, applied exposure to features delivered in cloud releases 2602–2608 through short demos, guided feature implementation, and expert support. You can also try out relevant features from older releases.
 
 ## What's in It for You?
 - Refresh your knowledge about core RAP concepts and building blocks: CDS data modeling, behavior definitions, projections, and UI service exposure
-- Experience developer facilitators to accelerate work:
-	- [OData UI Service from Scratch](/../../wiki/OData-UI-Service-from-Scratch-Generator) (2502)
- 	- [Documentation Chat](/../../wiki/Documentation-Chat) (2511)
+- Get to know CDS Table Entities and the option to generate table entity based RAP BOs with the OData Generator from Scratch
 - Be guided through the implementation of the latest RAP features:
-	- [Collaborative Draft](/../../wiki/Collaborative-Draft) (2508)
-	- [Draft Scope](/../../wiki/Draft-Scope) (2508)
-	 - [Recommendations](/../../wiki/Recommendations)  (2602) 
-	- [Editable Treeview](/../../wiki/Editable-Treeview) (2502) 
-	- [Analytical Table (Read-Only)](/../../wiki/Analytical-Table) (2511)
+    - [Best Practice Authorization Scenario](/../../wiki/Best-Practice-Authorization-Scenario) (2608) — a complete end-to-end authorization setup following RAP best practices
+    - [ADT in VS Code with MCP Server](/../../wiki/ADT-VS-Code-MCP-Server) (2605) — working with ABAP development tools in Visual Studio Code and leveraging the ADT MCP server
+    - [RAP Coding Agents](/../../wiki/RAP-Codeing-Agents) (2608) — first steps towards developing agentic workflows that support RAP development
+- Selected topics from CodeJam 2602 are also available:
+    - [Draft Scope](/../../wiki/Draft-Scope) (2508)
+    - [Recommendations](/../../wiki/Recommendations) (2602)
+    - [Analytical Table (Read-Only)](/../../wiki/Analytical-Table) (2511)
+    - [Cross-BO with Draft Scope](/../../wiki/Cross-BO-Draft-Scope) (2508)
 - Make use of various feedback options
   
 ## Agenda and Format
@@ -28,21 +29,23 @@ In this special edition you’ll get exclusive, applied exposure to features del
 Work on any presented feature, combine features across your RAP business objects, and experiment freely. Feature experts will be available throughout for questions and feedback.
 
 ## Prerequisites
-- Latest ABAP Development Tools (ADT) installed. [Installation Tutorial](https://developers.sap.com/tutorials/abap-install-adt.html)
-- Solid Knowledge of ABAP Cloud and RAP development
-- GitHub account to submit feedback and issues.
+- **Eclipse ADT (latest)** installed — [Installation Tutorial](https://developers.sap.com/tutorials/abap-install-adt.html)
+- **VS Code ADT (latest)** installed — [ABAP Development Tools for Visual Studio Code](https://developers.sap.com/group.abap-tools-for-vs-code.html)
+- **GitHub Copilot license** — a coding agent extension for VS Code that supports VS Code's virtual workspace filesystem is required to call MCP tools and read/edit ABAP files. GitHub Copilot is the only agent currently supported for this task. See the [event announcement](https://community.sap.com/t5/sap-codejam/sap-codejam-abap-cloud-amp-abap-restful-application-programming-model/ec-p/14460756) for details.
+- **GitHub account** — to submit feedback and issues via this repository
+- Solid knowledge of ABAP Cloud and RAP development — this event is **not** suited for absolute beginners
 
 ## Technical Setup
-- A dedicated ABAP System in an SAP BTP ABAP environment (2602) is prepared for this event. Access the Fiori Launchpad here: [AI5 Fiori Launchpad](https://811b8f03-fcbb-4aef-84ea-be223d95c35d.abap-web.eu10.hana.ondemand.com/ui#Shell-home). Follow [this link](https://adt.only.sap/bridge.html#adt://AI5?sap-adt-project-type=abap-http&sap-adt-project-instance-url=https://811b8f03-fcbb-4aef-84ea-be223d95c35d.abap.eu10.hana.ondemand.com)  to create your ABAP Cloud Project in ADT
-- To logon to the service instance, use your assigned username and password. 
+- A dedicated ABAP System in an SAP BTP ABAP environment (2608) is prepared for this event. Access the Fiori Launchpad here: [TBD - Fiori Launchpad Link]. Follow [this link](#TBD-ADT-bridge-link) to create your ABAP Cloud Project in ADT.
+- To log on to the service instance, use your assigned username and password.
 - You have been assigned a participant number (for example ###=042) and corresponding development packages ZDEVELOPER_### are already available in the system.
 - Please work inside your assigned packages. There is one subpackage for every feature available.
 
 ## Resources
 - This [CodeJam repository](./../../), especially the feature guides in the [Wiki](/../../wiki/)
 - ABAP Flight Reference Scenario
-	- [Flight Reference Scenario on GitHub](https://github.com/SAP-samples/abap-platform-refscen-flight/tree/ABAP-platform-cloud)
-	- [Flight Reference Scenario in the System](https://811b8f03-fcbb-4aef-84ea-be223d95c35d.abap-web.eu10.hana.ondemand.com:443/sap/bc/adt/packages/%2fdmo%2fflight?version=active&sap-client=100) in the package `/DMO/FLIGHT`
+    - [Flight Reference Scenario on GitHub](https://github.com/SAP-samples/abap-platform-refscen-flight/tree/ABAP-platform-cloud)
+    - [Flight Reference Scenario in the System](#TBD-system-flight-package-link) in the package `/DMO/FLIGHT`
 - [RAP Documentation](https://help.sap.com/docs/abap-cloud/abap-rap/abap-restful-application-programming-model?ai=true&locale=en-US&version=LATEST) on the SAP Help Portal
 - [RAP on SAP Community](https://pages.community.sap.com/topics/abap/rap)
 - [ABAP Cheat Sheets](https://github.com/SAP-samples/abap-cheat-sheets)
@@ -55,13 +58,13 @@ Work on any presented feature, combine features across your RAP business objects
 We appreciate your feedback. Use any of the options below:
 - Provide general feedback for a feature  
 Let us know what you think about a feature you implemented:
-	- Go to [Issues](/../../issues) in this repository. Choose **New Issue**-->**Feature Feedback**.
-	- Select the feature label, complete the form with ratings and comments, and submit.
+    - Go to [Issues](/../../issues) in this repository. Choose **New Issue**-->**Feature Feedback**.
+    - Select the feature label, complete the form with ratings and comments, and submit.
 - Report a problem (bug, documentation issue, enhancement idea, question)  
 Help us improve the feature by reporting problems you experience during development: 
-	- Go to [Issues](/../../issues) in this repository. Choose **New Issue**-->**Feature Problem Report**.
-	- Select the feature label and an additional problem category ( `bug`, `documentation` `enhancement idea`, `question` )
-	- Describe your findings and submit.
+    - Go to [Issues](/../../issues) in this repository. Choose **New Issue**-->**Feature Problem Report**.
+    - Select the feature label and an additional problem category ( `bug`, `documentation` `enhancement idea`, `question` )
+    - Describe your findings and submit.
 - Provide event feedback  
 You will be asked to participate in a small survey when the event is concluded to give feedback regarding the CodeJam itself
 - Talk to the experts. 
