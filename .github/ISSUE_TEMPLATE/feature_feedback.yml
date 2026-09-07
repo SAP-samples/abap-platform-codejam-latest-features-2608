@@ -1,9 +1,27 @@
-name: "💬 Feature Feedback"
-description: "❗Important! Please select a feature via a label."
-title: "FEEDBACK for [AddFeatureHere] "
+name: "💬 Feature Feedback & 🔴 Issue Report"
+description: "❗Important! Select a feature via a label. Use this form to submit feedback or report a technical issue."
+title: "FEEDBACK / ISSUE for [AddFeatureHere] "
 labels: ["feedback", "ux"]
 assignees: []
 body:
+  - type: dropdown
+    id: form_type
+    attributes:
+      label: "📋 What would you like to submit?"
+      description: "Choose whether this is feedback on a feature or a technical issue report."
+      options:
+        - "💬 Feature Feedback"
+        - "🔴 Issue Report"
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 💬 Feature Feedback
+        *(Fill in this section if you selected "Feature Feedback" above)*
+
   - type: dropdown
     id: relevance
     attributes:
@@ -13,6 +31,7 @@ body:
         - "1 – Not relevant"
         - "2 – Moderately relevant"
         - "3 – Highly relevant"
+
   - type: dropdown
     id: devflow
     attributes:
@@ -22,6 +41,7 @@ body:
         - "1 – Poor / unclear"
         - "2 – Acceptable"
         - "3 – Smooth and well-structured"
+
   - type: dropdown
     id: documentation
     attributes:
@@ -31,22 +51,63 @@ body:
         - "1 – Not helpful"
         - "2 – Sufficient"
         - "3 – Very helpful"
+
   - type: textarea
     id: strengths
     attributes:
       label: "✅ What works well?"
       description: "Describe aspects of the feature that work as expected or are particularly useful."
       placeholder: "Your answer here"
+
   - type: textarea
     id: improvements
     attributes:
       label: "🛠️ What could be improved?"
       description: "Suggestions, missing functionality, or areas for improvement."
       placeholder: "Your answer here"
+
   - type: textarea
     id: additional
     attributes:
       label: "💭 Additional Feedback"
       description: "Any other thoughts, edge cases, or ideas you want to share."
       placeholder: "Your answer here"
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 🔴 Issue Report
+        *(Fill in this section if you selected "Issue Report" above)*
+
+  - type: textarea
+    id: description
+    attributes:
+      label: "🐞 Description"
+      description: "Describe the problem clearly and concisely."
+      placeholder: "What is not working as expected? / What is not documented as expected?"
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "🔁 Steps to Reproduce"
+      description: "How can the issue be reproduced? / Where exactly did you find an issue with the documentation?"
+      placeholder: |
+        1. Go to ...
+        2. Click on ...
+        3. See error / See line "..."
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: "✅ Expected Behavior"
+      description: "What did you expect to happen?"
+      placeholder: "The system should... / The documentation should..."
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: "❌ Actual Behavior"
+      description: "What actually happened?"
+      placeholder: "Instead, the system..."
 
