@@ -56,7 +56,7 @@ Work on any presented feature, combine features across your RAP business objects
 ### RAP Outlook
 [ABAP Platform - Roadmap Information](https://help.sap.com/docs/abap-cross-product/roadmap-info/abap-platform-roadmap-information?locale=en-US)
 
-# Tell us what you think
+## Tell us what you think
 We appreciate your feedback. Use any of the options below:
 - Provide feedback or report a problem for a feature
   Whether you want to rate a feature or report a bug, documentation issue, enhancement idea, or question — use the single combined form:
