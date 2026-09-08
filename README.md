@@ -58,12 +58,12 @@ Work on any presented feature, combine features across your RAP business objects
 
 ## Tell us what you think
 We appreciate your feedback. Use any of the options below:
-- Provide feedback or report a problem for a feature
-  Whether you want to rate a feature or report a bug, documentation issue, enhancement idea, or question — use the single combined form:
-  - Go to Issues in this repository. Choose New Issue-->Feature Feedback & Issue Report.
-    Select 💬 Feature Feedback or 🔴 Issue Report at the top of the form, fill in the relevant section, and submit.
-- Provide event feedback
-You will be asked to participate in a small survey when the event is concluded to give feedback regarding the CodeJam itself
+- Provide feedback or report a problem for a feature. Whether you want to rate a feature or report a bug, documentation issue, enhancement idea, or question — use the single combined form:
+      Go to Issues in this repository.
+      Choose New Issue-->Feature Feedback & Issue Report.
+      Select 💬 Feature Feedback or 🔴 Issue Report at the top of the form, fill in the relevant section, and submit.
+- Provide event feedback.
+  You will be asked to participate in a small survey when the event is concluded to give feedback regarding the CodeJam itself
 - Talk to the experts.
 
 ## License
