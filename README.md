@@ -32,7 +32,7 @@ Work on any presented feature, combine features across your RAP business objects
 
 ## Prerequisites
 - **Eclipse ADT (latest)** installed — [Installation Tutorial](https://developers.sap.com/tutorials/abap-install-adt.html)
-- **VS Code ADT (latest)** installed — [ABAP Development Tools for Visual Studio Code](https://developers.sap.com/group.abap-tools-for-vs-code.html)
+- **VS Code ADT (latest)** installed — [ABAP Development Tools for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=SAPSE.adt-vscode)
 - **GitHub Copilot license** — a coding agent extension for VS Code that supports VS Code's virtual workspace filesystem is required to call MCP tools and read/edit ABAP files. GitHub Copilot is the only agent currently supported for this task. See the [event announcement](https://community.sap.com/t5/sap-codejam/sap-codejam-abap-cloud-amp-abap-restful-application-programming-model/ec-p/14460756) for details.
 - **GitHub account** — to submit feedback and issues via this repository
 - Solid knowledge of ABAP Cloud and RAP development — this event is **not** suited for absolute beginners
