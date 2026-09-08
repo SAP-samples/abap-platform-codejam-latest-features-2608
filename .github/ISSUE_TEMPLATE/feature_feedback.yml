@@ -57,25 +57,21 @@ body:
     attributes:
       label: "✅ What works well?"
       description: "Describe aspects of the feature that work as expected or are particularly useful."
-      placeholder: "What was most valuable for you?"
-                    Which part of the feature would you use in your daily work?"
-                    What worked particularly well?"
+      placeholder: "What was most valuable for you? Which part of the feature would you use in your daily work? What worked particularly well?"
 
   - type: textarea
     id: improvements
     attributes:
       label: "🛠️ What could be improved?"
       description: "Suggestions, missing functionality, or areas for improvement."
-      placeholder: "Your answer here"
+      placeholder: "Which capability is missing? What would make this feature more useful? Were there any limitations or usability issues?"
 
   - type: textarea
     id: additional
     attributes:
       label: "💭 Additional Feedback"
       description: "Any other thoughts, edge cases, or ideas you want to share."
-      placeholder: "Which capability is missing?
-                    What would make this feature more useful?"
-                    Were there any limitations or usability issues?"
+      placeholder: "Do you have anything else you would like to share with us?"
 
   - type: markdown
     attributes:
