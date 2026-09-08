@@ -7,8 +7,8 @@ In this special edition you'll get exclusive, applied exposure to features deliv
 
 ## What's in It for You?
 - Refresh your knowledge about core RAP concepts and building blocks: CDS data modeling, behavior definitions, projections, and UI service exposure
-- Get to know CDS Table Entities and the option to generate table entity based RAP BOs with the OData Generator from Scratch
 - Be guided through the implementation of the latest RAP features:
+    - [RAP BOs based on CDS Table Entities](/../../wiki/1-RAP-BOs-based-on-CDS-Table-Entities) (2605) - Get to know CDS Table Entities and the option to generate table entity based RAP BOs with the OData Generator from Scratch   
     - [Best Practice Authorization Scenario](/../../wiki/Best-Practice-Authorization-Scenario) (2608) — a complete end-to-end authorization setup following RAP best practices
     - [ADT in VS Code with MCP Server](/../../wiki/ADT-VS-Code-MCP-Server) (2605) — working with ABAP development tools in Visual Studio Code and leveraging the ADT MCP server
     - [RAP Coding Agents](/../../wiki/RAP-Codeing-Agents) (2608) — first steps towards developing agentic workflows that support RAP development
