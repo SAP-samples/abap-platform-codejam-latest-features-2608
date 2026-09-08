@@ -47,7 +47,7 @@ Work on any presented feature, combine features across your RAP business objects
 - This [CodeJam repository](./../../), especially the feature guides in the [Wiki](/../../wiki/)
 - ABAP Flight Reference Scenario
     - [Flight Reference Scenario on GitHub](https://github.com/SAP-samples/abap-platform-refscen-flight/tree/ABAP-platform-cloud)
-    - [Flight Reference Scenario in the System](#TBD-system-flight-package-link) in the package `/DMO/FLIGHT`
+    - [Flight Reference Scenario in the System](adt://AI3/sap/bc/adt/packages/%2fdmo%2fflght_13) in the package `/DMO/FLIGHT_13`
 - [RAP Documentation](https://help.sap.com/docs/abap-cloud/abap-rap/abap-restful-application-programming-model?ai=true&locale=en-US&version=LATEST) on the SAP Help Portal
 - [RAP on SAP Community](https://pages.community.sap.com/topics/abap/rap)
 - [ABAP Cheat Sheets](https://github.com/SAP-samples/abap-cheat-sheets)
