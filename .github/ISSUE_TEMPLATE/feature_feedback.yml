@@ -1,5 +1,5 @@
 name: "💬 Feature Feedback & 🔴 Issue Report"
-description: "❗Important! Select a feature via a label. Use this form to submit feedback or report a technical issue."
+description: "❗Use this form to submit feedback or report a technical issue."
 title: "FEEDBACK / ISSUE for [AddFeatureHere] "
 labels: ["feedback", "ux"]
 assignees: []
