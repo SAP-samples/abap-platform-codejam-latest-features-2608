@@ -1,8 +1,10 @@
 name: "💬 Feature Feedback & 🔴 Issue Report"
 description: "❗Use this form to submit feedback or report a technical issue."
-title: "FEEDBACK / ISSUE for [AddFeatureHere] "
+title: ""
 labels: ["feedback", "ux"]
 assignees: []
+validations:
+  required: true
 body:
   - type: dropdown
     id: form_type
@@ -14,6 +16,24 @@ body:
         - "🔴 Issue Report"
     validations:
       required: true
+
+  - type: dropdown
+    id: form_type
+    attributes:
+      label: "📋 What feature would you like to give feedback on?"
+      description: "Choose the feature or none for any other feedback."
+      options:
+        - "RAP BOs based on Table Entities"
+        - "Implementing Authorization"
+        - "ADT in VS Code with the ADT MCP Server"
+        - "Configure a Custom Copilot Agent"
+        - "Collaborative Draft"
+        - "Cross-BO with Draft Scope"
+        - "Analytical Table (Read-Only)"
+        - "Recommendations"
+        - "None"
+    validations:
+      required: true      
 
   - type: markdown
     attributes:
