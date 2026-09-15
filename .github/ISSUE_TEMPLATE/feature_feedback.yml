@@ -13,7 +13,14 @@ body:
         - "💬 Feature Feedback"
         - "🔴 Issue Report"
     validations:
-      required: true
+      required: true  
+
+  - type: markdown
+    attributes:
+      value: |
+        ---
+        ## 💬 Feature Feedback
+        *(Fill in this section if you selected "Feature Feedback" above)*
 
   - type: dropdown
     id: feature_selection
@@ -31,15 +38,8 @@ body:
         - "Recommendations"
         - "Other"
     validations:
-      required: true      
-
-  - type: markdown
-    attributes:
-      value: |
-        ---
-        ## 💬 Feature Feedback
-        *(Fill in this section if you selected "Feature Feedback" above)*
-
+      required: true    
+  
   - type: dropdown
     id: relevance
     attributes:
