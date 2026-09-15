@@ -3,8 +3,6 @@ description: "❗Use this form to submit feedback or report a technical issue."
 title: "[Enter a title]"
 labels: ["feedback", "ux"]
 assignees: []
-validations:
-  required: true
 body:
   - type: dropdown
     id: form_type
@@ -18,10 +16,10 @@ body:
       required: true
 
   - type: dropdown
-    id: form_type
+    id: feature_selection
     attributes:
-      label: "📋 What feature would you like to give feedback on?"
-      description: "Choose the feature or none for any other feedback."
+      label: "📦 What feature would you like to give feedback on?"
+      description: "Choose the feature or Other for any other feedback."
       options:
         - "RAP BOs based on Table Entities"
         - "Implementing Authorization"
@@ -31,7 +29,7 @@ body:
         - "Cross-BO with Draft Scope"
         - "Analytical Table (Read-Only)"
         - "Recommendations"
-        - "None"
+        - "Other"
     validations:
       required: true      
 
