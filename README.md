@@ -38,7 +38,7 @@ Work on any presented feature, combine features across your RAP business objects
 - Solid knowledge of ABAP Cloud and RAP development — this event is **not** suited for absolute beginners
 
 ## Technical Setup
-- A dedicated ABAP System in an SAP BTP ABAP environment (2608) is prepared for this event. Access the Fiori Launchpad here: [AI6 Fiori Launchpad](https://95dd9c04-b618-4e5c-beb1-be3d70277ded.abap-web.eu10.hana.ondemand.com/ui#Shell-home). Follow [this link](https://adt.only.sap/bridge.html#adt://AI6?sap-adt-project-type=abap-http&sap-adt-project-instance-url=https://95dd9c04-b618-4e5c-beb1-be3d70277ded.abap-web.eu10.hana.ondemand.com/&sap-adt-project-system-id=AI6) to create your ABAP Cloud Project in ADT.
+- A dedicated ABAP System in an SAP BTP ABAP environment (2608) is prepared for this event: [AI6 System URL](https://95dd9c04-b618-4e5c-beb1-be3d70277ded.abap-web.eu10.hana.ondemand.com).
 - To log on to the service instance, use your assigned username and password.
 - You have been assigned a participant number (for example ###=042) and corresponding development packages ZWORKSHOP_### are already available in the system.
 - Please work inside your assigned packages. There is one subpackage for every feature available.
