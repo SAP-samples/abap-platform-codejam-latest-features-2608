@@ -16,7 +16,6 @@ In this special edition you'll get exclusive, applied exposure to features deliv
     - [Collaborative Draft](/../../wiki/5-Collaborative-Draft) (2508)
     - [Cross-BO with Draft Scope](/../../wiki/6-Draft-Scope) (2508)
     - [Analytical Table (Read-Only)](/../../wiki/7-Analytical-Table) (2511)
-    - [Recommendations](/../../wiki/8-Recommendations) (2602)
     
     
 - Make use of various feedback options
